@@ -64,7 +64,6 @@ cd Hangman_game
 
 2. 📂 Install Dependencies
 Install all required Python libraries from the requirements.txt file:
-```bash
 Copy code
 pip install -r requirements.txt
 
