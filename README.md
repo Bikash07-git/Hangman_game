@@ -56,7 +56,10 @@ This project serves as both a **fun game** and a **strong portfolio project** to
 Follow the steps below to set up the game on your computer:
 
 ### 1. 📂 Clone the Repository
-
 ```bash
 git clone https://github.com/Bikash07-git/Hangman_game.git
 cd Hangman_game
+
+### 2. 📦 Install Dependencies
+'''bash
+Install required Python libraries via:
