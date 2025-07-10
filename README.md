@@ -35,19 +35,18 @@ This project serves as both a **fun game** and a **strong portfolio project** to
 | Language        | Python              |
 | GUI Framework   | CustomTkinter       |
 | HTTP/Word Fetch | requests (optional) |
-| Packaging       | PyInstaller (for `.exe`) |
+| Packaging       | PyInstaller         |
 
 ---
 
 ## 🚀 Features
 
 - ✅ **Modern GUI** using `customtkinter` (dark mode)
-- ✅ **ASCII Art Hangman Drawing** (updates with wrong guesses)
+- ✅ **ASCII Art Hangman Drawing**
 - ✅ **Multi-Round Mode** with scoring system
 - ✅ **External Word File Support** (`words.txt`)
 - ✅ **Input Validation** and error handling
-- ✅ **Packaged `.exe` Support** for Windows users
-- ✅ **Customizable Word Source**
+- ✅ **Executable Packaging** with `.exe` support
 
 ---
 
@@ -55,11 +54,10 @@ This project serves as both a **fun game** and a **strong portfolio project** to
 
 Follow the steps below to set up the game on your computer:
 
-### 1. 📂 Clone the Repository
-```bash
-git clone https://github.com/Bikash07-git/Hangman_game.git
-cd Hangman_game
+---
 
-### 2. 📦 Install Dependencies
-'''bash
-Install required Python libraries via:
+### 1. 📂 Clone the Repository
+
+```bash
+git clone https://github.com/Bikash07-git/hangman-game-python.git
+cd hangman-game-python
