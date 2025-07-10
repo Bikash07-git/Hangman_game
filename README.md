@@ -1,41 +1,62 @@
 <!-- Banner -->
-<h1 align="center">🕹️ Hangman Game - Python GUI</h1>
+<h1 align="center">🕹️ Hangman Game - Python GUI Edition</h1>
 <p align="center">
-  A visually engaging Hangman game built using <b>Python</b> and <b>CustomTkinter</b>.<br/>
-  🎯 Featuring ASCII Art, Score Tracking, External Word Lists & More
+  A modern GUI-based Hangman game built using <b>Python</b> and <b>CustomTkinter</b>.<br/>
+  Features ASCII Art, Score Tracking, External Word Support, and Multi-Round Gameplay!
 </p>
 
 ---
 
-## 🚀 Overview
+## 📌 Overview
 
-**Hangman Game - Python GUI** is a modernized version of the classic word-guessing game.  
-It uses a clean, dark-themed GUI powered by `CustomTkinter`, supports external word lists, includes ASCII-based visual hangman stages, and tracks user scores over multiple rounds — offering an engaging and educational experience for all ages.
+This project is a complete desktop version of the classic **Hangman Game**, developed with **Python** and a modern GUI powered by **CustomTkinter**.  
+It includes a sleek user interface, support for external word files, visual hangman drawing with ASCII art, and a built-in scoring system over multiple rounds.
 
-This project is a great way to demonstrate GUI development skills, logic building, and Python proficiency.
+This project serves as both a **fun game** and a **strong portfolio project** to demonstrate your skills in GUI development, file handling, and game logic using Python.
 
 ---
 
-## 🔥 Features
+## 🎮 Gameplay Instructions
 
-Here’s what makes this Hangman game more than just basic:
+- At launch, enter the number of rounds you want to play.
+- You’ll be shown blank spaces for a randomly chosen word from `words.txt`.
+- Guess one letter at a time using the input box.
+- You have **6 chances** to guess the word correctly before the hangman is complete.
+- Each correct guess fills in a letter.
+- Incorrect guesses will build the ASCII hangman figure.
+- After all rounds, your final **score** is displayed.
 
-- 🎨 **Modern GUI Interface** using `customtkinter` — no terminal required!
-- 🖼️ **ASCII Art Drawing** that visually represents the hangman's progress.
-- 🧠 **Multi-Round Gameplay** — users can set how many words they want to guess.
-- 🎯 **Score Tracking System** — your score increases with each correct guess.
-- 📁 **External Word List** loaded from a simple `words.txt` file — easy to customize.
-- 🧩 **Robust Input Handling** — user-friendly prompts and error messages.
-- 🌙 **Dark Mode Styling** — clean and minimal look with intuitive layout.
+---
+
+## 🛠️ Tech Stack Used
+
+| Feature         | Technology          |
+|----------------|---------------------|
+| Language        | Python              |
+| GUI Framework   | CustomTkinter       |
+| HTTP/Word Fetch | requests (optional) |
+| Packaging       | PyInstaller (for `.exe`) |
+
+---
+
+## 🚀 Features
+
+- ✅ **Modern GUI** using `customtkinter` (dark mode)
+- ✅ **ASCII Art Hangman Drawing** (updates with wrong guesses)
+- ✅ **Multi-Round Mode** with scoring system
+- ✅ **External Word File Support** (`words.txt`)
+- ✅ **Input Validation** and error handling
+- ✅ **Packaged `.exe` Support** for Windows users
+- ✅ **Customizable Word Source**
 
 ---
 
 ## 🛠️ Installation Guide
 
-Follow these steps to set up the game on your local machine:
+Follow the steps below to set up the game on your computer:
 
 ### 1. 📂 Clone the Repository
 
 ```bash
-git clone https://github.com/Bikash07-git/hangman-game-python.git
-cd hangman-game-python
+git clone https://github.com/Bikash07-git/Hangman_game.git
+cd Hangman_game
