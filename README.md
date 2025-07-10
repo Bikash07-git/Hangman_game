@@ -62,8 +62,14 @@ Follow the steps below to set up the game on your computer:
 git clone https://github.com/Bikash07-git/hangman-game-python.git
 cd hangman-game-python
 
-### 2. 📂 Install Dependencies
+2. 📂 Install Dependencies
 Install all required Python libraries from the requirements.txt file:
 ```bash
 Copy code
 pip install -r requirements.txt
+
+pip install customtkinter requests
+
+3. ▶️ Run the Game
+python hangman_gui.py
+
